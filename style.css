@@ -1,0 +1,43 @@
+
+#time{
+    background-color: skyblue;
+    font-size: 30px;
+    height: 50px;
+    color: blue;
+}
+
+#wrapper{
+    align-content: auto;
+    margin: auto;
+    width: 50%;
+}
+
+#button{
+    background-color: blueviolet;
+}
+
+.container{
+    display: none;
+}
+
+p{
+    font-size: 20px;
+    height: 50px;
+    width: 50%;
+    text-size-adjust: inherit;
+    
+}
+
+.radio-inline{
+    font-size: 20px;
+}
+
+
+#image{
+    width: 100%;
+    height: 80%;
+}
+
+#score{
+    display: none;
+}
