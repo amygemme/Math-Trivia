@@ -5,7 +5,9 @@ var incorrect = 0;
 $("#button").on("click", start);
 
 function start() {
-
+    $("#button").hide();
+    $("#image").hide();
+    $("#time").show();
    setTimeout(countDown, 1000);
    $(".container").show();
    // $(".radio-inline").show();
@@ -67,7 +69,10 @@ if ($("#opt2a").is(":checked")) {
  }
 
 $(".container").hide();
+$("#time").hide();
 $("#score").show();
+$("#correct").text(correct);
+$("#incorrect").text(incorrect);
 console.log(correct);
 console.log(incorrect);
 } // close time up function 
